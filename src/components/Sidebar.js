@@ -17,7 +17,7 @@ const Sidebar = () => {
   const logoutHandler = () => {
     localStorage.removeItem("login");
     localStorage.clear();
-    navigate("/");
+    navigate("/GraphAnalyticsDashboard");
   };
 
   const sidetest = () => {
